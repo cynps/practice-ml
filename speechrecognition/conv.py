@@ -1,6 +1,12 @@
 import ffmpeg
+stride = 180 # sec, strict param
 
-stream = ffmpeg.input("sample2201191510.ogg")
-stream = ffmpeg.output(stream, "sample.wav")
+# variant
+srcfilepath = "dist/src/02_.mov" # movie file name
+rangeparam = 13 # file size(sec) / stride
 
-ffmpeg.run(stream)
+for i in range(rangeparam):
+  start = int(i * stride)
+  stream = ffmpeg.input(srcfilepath, ss=start, t=stride)
+  stream = ffmpeg.output(stream, "dist/output/output_{}.wav".format(i), format="wav")
+  ffmpeg.run(stream)

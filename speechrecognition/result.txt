@@ -1,0 +1,10 @@
+/home/dev/repos/practice-ml/speechrecognition/sample.wav
+result2:
+{   'alternative': [   {   'confidence': 0.89859498,
+                           'transcript': 'インターネット広告 あとは SNS や LINE などのメディア 広告'},
+                       {'transcript': 'インターネット広告 後は SNS や LINE などのメディア 広告'},
+                       {'transcript': 'インターネット広告 あとは SS SNS や LINE などのメディア 広告'},
+                       {'transcript': 'インターネット広告 後は SS SNS や LINE などのメディア 広告'},
+                       {'transcript': 'インターネット広告 後は SA SNS や LINE などのメディア 広告'}],
+    'final': True}
+インターネット広告 あとは SNS や LINE などのメディア 広告

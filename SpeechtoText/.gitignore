@@ -4,3 +4,4 @@ dist/divtxts/*
 conv/*
 build/*
 __pycache__/*
+*.spec

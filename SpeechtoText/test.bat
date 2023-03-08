@@ -1,0 +1,1 @@
+python C:\Python311\Lib\site-packages\PyInstaller\__main__.py %1 --onefile

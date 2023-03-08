@@ -1,2 +1,6 @@
 dist/output/output*
 dist/src/*.mov
+dist/divtxts/*
+conv/*
+build/*
+__pycache__/*
